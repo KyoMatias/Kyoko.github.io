@@ -1,0 +1,68 @@
+{
+  "boost": {
+    "title": "BOOST",
+    "subtitle": "3D Story-Driven Racing Game",
+    "description": "A 3D story-driven racing game developed in Unity 6. A passion project that features in-house developed elements, representing a first project for a first challenge.",
+    "image": "assets/images/boost.png",
+    "details": {
+      "role": "Full-Stack Game Developer & 3D Artist",
+      "duration": "Ongoing Development",
+      "technologies": ["Unity 6", "C#", "Blender", "Shader Graph", "Unity Input System"],
+      "status": "In Development"
+    },
+    "features": [
+      "Immersive story-driven gameplay mechanics",
+      "Custom-built racing physics system",
+      "In-house 3D asset creation and animation",
+      "Dynamic weather and lighting systems",
+      "Cinematic cutscenes and narrative elements",
+      "Original soundtrack and sound design"
+    ],
+    "challenges": "Building a racing game from scratch required developing custom physics systems and vehicle controls that feel responsive while maintaining cinematic storytelling. Balancing performance with visual fidelity in Unity 6 presented unique optimization challenges.",
+    "outcome": "BOOST represents a significant milestone in technical game development skills, showcasing the ability to manage complex systems and create engaging player experiences from concept to execution."
+  },
+  "bunny": {
+    "title": "BUNNY",
+    "subtitle": "3D Horror Chase Experience",
+    "description": "A 3D Horror Chase game developed in Unity. Players take on the role of a student council member investigating a murder case that unfolds in an abandoned hotel.",
+    "image": "assets/images/bunny.png",
+    "details": {
+      "role": "Game Developer & Level Designer",
+      "duration": "6 Months",
+      "technologies": ["Unity", "C#", "Blender", "FMOD", "Post-Processing"],
+      "status": "Completed"
+    },
+    "features": [
+      "Atmospheric horror environment design",
+      "AI-driven chase mechanics and enemy behavior",
+      "Investigation and puzzle-solving gameplay",
+      "Immersive audio design and ambient soundscapes",
+      "Multiple endings based on player choices",
+      "Environmental storytelling through detailed level design"
+    ],
+    "challenges": "Creating tension and fear while maintaining engaging gameplay required careful balancing of enemy AI behavior, sound design, and pacing. Optimizing the detailed abandoned hotel environment for smooth performance was technically demanding.",
+    "outcome": "Successfully delivered a complete horror experience that demonstrates proficiency in atmospheric design, AI programming, and narrative integration in game development."
+  },
+  "todapay": {
+    "title": "TODAPAY",
+    "subtitle": "Digital Tricycle Booking Platform",
+    "description": "A startup application that focuses on digitalizing tricycle booking, bringing modern transportation solutions to traditional commuting methods.",
+    "image": "assets/images/todapay.png",
+    "details": {
+      "role": "Full-Stack Developer & UI/UX Designer",
+      "duration": "4 Months",
+      "technologies": ["React Native", "Node.js", "MongoDB", "Google Maps API", "Firebase"],
+      "status": "Beta Testing"
+    },
+    "features": [
+      "Real-time tricycle location tracking",
+      "Seamless booking and payment integration",
+      "Driver and passenger rating system",
+      "Route optimization and fare calculation",
+      "Push notifications for ride updates",
+      "Analytics dashboard for drivers"
+    ],
+    "challenges": "Integrating real-time location tracking with reliable performance in areas with poor connectivity. Designing an intuitive interface for diverse user demographics, including those less familiar with digital platforms.",
+    "outcome": "Created a functional MVP that addresses real transportation needs in the local community, demonstrating skills in mobile development, API integration, and user-centered design."
+  }
+}
