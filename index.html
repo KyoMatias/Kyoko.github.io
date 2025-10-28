@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KYO MATIAS - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navigation">
+    <div class="nav-container">
+      <a href="#/" class="nav-logo">KYO MATIAS</a>
+      <div class="nav-links">
+        <a href="#/" class="nav-link" data-page="home">Projects</a>
+        <a href="#/about" class="nav-link" data-page="about">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <div id="app">
+    <!-- Home Page -->
+    <div id="home-page" class="page">
+      <section class="hero">
+        <div class="hero-image">
+          <img src="assets/images/hero.png" alt="Hero">
+        </div>
+        <div class="hero-content">
+          <div class="hero-text">
+            <h2>KYO MATIAS</h2>
+            <p>Full-Stack Indie Game Developer | 3D Artist | Video Producer</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects-section">
+        <div class="projects-container">
+          <ul class="projects-list">
+            <li class="projects-header">
+              <div class="projects-header-content">
+                <p>PROJECTS</p>
+              </div>
+            </li>
+            <li class="project-card" data-project="boost">
+              <a href="#/project/boost" class="project-link">
+                <div class="project-image">
+                  <img src="assets/images/boost.png" alt="BOOST">
+                </div>
+                <div class="project-text">
+                  <h5>BOOST</h5>
+                  <p>A 3D story-driven racing game developed in Unity 6. A passion project that features In-house developed elements. a first project for a first challenge.</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card" data-project="bunny">
+              <a href="#/project/bunny" class="project-link">
+                <div class="project-image">
+                  <img src="assets/images/bunny.png" alt="BUNNY">
+                </div>
+                <div class="project-text">
+                  <h5>BUNNY</h5>
+                  <p>A 3D Horror Chase game developed in Unity. You play as the student council figuring out a murder case that takes place in an abandoned hotel.</p>
+                </div>
+              </a>
+            </li>
+            <li class="project-card" data-project="todapay">
+              <a href="#/project/todapay" class="project-link">
+                <div class="project-image">
+                  <img src="assets/images/todapay.png" alt="TODAPAY">
+                </div>
+                <div class="project-text">
+                  <h5>TODAPAY</h5>
+                  <p>A Startup application that focuses on digitalizing Tricycle booking.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+
+    <!-- Project Detail Page -->
+    <div id="project-detail-page" class="page" style="display: none;">
+      <div class="project-detail-container">
+        <!-- Back Button -->
+        <a href="#/" class="back-button">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+          Back to Projects
+        </a>
+
+        <!-- Hero Section -->
+        <div class="detail-hero">
+          <div class="detail-info">
+            <div class="detail-status" id="project-status"></div>
+            <h1 id="project-title"></h1>
+            <p class="detail-subtitle" id="project-subtitle"></p>
+            <p class="detail-description" id="project-description"></p>
+          </div>
+          <div class="detail-image-container">
+            <img id="project-image" alt="">
+          </div>
+        </div>
+
+        <!-- Project Details -->
+        <div class="detail-meta" id="project-meta">
+          <div class="meta-item">
+            <div class="meta-label">Role</div>
+            <div class="meta-value" id="project-role"></div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Duration</div>
+            <div class="meta-value" id="project-duration"></div>
+          </div>
+          <div class="meta-item">
+            <div class="meta-label">Technologies</div>
+            <div class="meta-technologies" id="project-technologies"></div>
+          </div>
+        </div>
+
+        <!-- Features -->
+        <div class="detail-section">
+          <h2>Key Features</h2>
+          <div class="features-grid" id="project-features"></div>
+        </div>
+
+        <!-- Challenges & Outcome -->
+        <div class="detail-grid">
+          <div class="detail-card">
+            <h3>Challenges</h3>
+            <p id="project-challenges"></p>
+          </div>
+          <div class="detail-card highlight">
+            <h3>Outcome</h3>
+            <p id="project-outcome"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Page -->
+    <div id="about-page" class="page" style="display: none;">
+      <div class="about-container">
+        <!-- Hero Section -->
+        <div class="about-hero">
+          <div class="about-info">
+            <div class="about-label">About Me</div>
+            <h1>KYO MATIAS</h1>
+            <p class="about-subtitle">Full-Stack Indie Game Developer | 3D Artist | Video Producer</p>
+            <p class="about-text">
+              I'm a multidisciplinary creator passionate about bringing interactive experiences to life. 
+              With expertise spanning game development, 3D art, and full-stack programming, I blend 
+              technical skills with creative vision to build engaging digital experiences.
+            </p>
+            <p class="about-text">
+              My work focuses on creating immersive narratives and intuitive user experiences, 
+              whether it's through indie games, web applications, or visual content.
+            </p>
+          </div>
+          <div class="about-image-container">
+            <img src="assets/images/hero.png" alt="Kyo Matias">
+          </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="about-section">
+          <h2>Skills & Expertise</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Game Development</h3>
+              <ul class="skill-list">
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Game Design</li>
+                <li>Physics Systems</li>
+                <li>AI Programming</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>3D Art</h3>
+              <ul class="skill-list">
+                <li>Blender</li>
+                <li>3D Modeling</li>
+                <li>Texturing</li>
+                <li>Animation</li>
+                <li>Shader Development</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Full-Stack Development</h3>
+              <ul class="skill-list">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MongoDB</li>
+                <li>TypeScript</li>
+                <li>REST APIs</li>
+              </ul>
+            </div>
+            <div class="skill-card">
+              <h3>Video Production</h3>
+              <ul class="skill-list">
+                <li>Video Editing</li>
+                <li>Motion Graphics</li>
+                <li>Sound Design</li>
+                <li>Color Grading</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="about-section">
+          <h2>Experience</h2>
+          <div class="experience-list">
+            <div class="experience-item">
+              <div class="experience-header">
+                <h3>Indie Game Developer</h3>
+                <span class="experience-period">2023 - Present</span>
+              </div>
+              <p>Creating immersive gaming experiences with focus on narrative-driven gameplay and innovative mechanics.</p>
+            </div>
+            <div class="experience-item">
+              <div class="experience-header">
+                <h3>3D Artist & Animator</h3>
+                <span class="experience-period">2022 - Present</span>
+              </div>
+              <p>Designing and animating 3D assets for games and interactive media projects.</p>
+            </div>
+            <div class="experience-item">
+              <div class="experience-header">
+                <h3>Full-Stack Developer</h3>
+                <span class="experience-period">2023 - Present</span>
+              </div>
+              <p>Building web and mobile applications with modern frameworks and technologies.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact-section">
+          <h2>Let's Connect</h2>
+          <p>Interested in collaborating or discussing a project? Feel free to reach out through any of these channels.</p>
+          <div class="contact-links">
+            <a href="mailto:contact@kyomatias.dev" class="contact-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              Email
+            </a>
+            <a href="https://github.com/kyomatias" target="_blank" rel="noopener noreferrer" class="contact-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              GitHub
+            </a>
+            <a href="https://linkedin.com/in/kyomatias" target="_blank" rel="noopener noreferrer" class="contact-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+              LinkedIn
+            </a>
+            <a href="https://youtube.com/@kyomatias" target="_blank" rel="noopener noreferrer" class="contact-button">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+              </svg>
+              YouTube
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
