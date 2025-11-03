@@ -46,13 +46,12 @@
   "todapay": {
     "title": "TODAPAY",
     "subtitle": "Digital Tricycle Booking Platform",
-    "description": "A startup application that focuses on digitalizing tricycle booking, bringing modern transportation solutions to traditional commuting methods.",
-    "image": "assets/images/todapay.png",
+    "description": "EMCommute Transportech Co. A startup application that focuses on digitalizing tricycle booking, bringing modern transportation solutions to traditional commuting methods.",
     "details": {
-      "role": "Full-Stack Developer & UI/UX Designer",
-      "duration": "4 Months",
-      "technologies": ["React Native", "Node.js", "MongoDB", "Google Maps API", "Firebase"],
-      "status": "Beta Testing"
+      "role": "Full-Stack Developer, Application Designer, UI/UX Designer, Head of Project, Tester.",
+      "duration": "3 Months",
+      "technologies": ["Unity 6 Android [Application Engine]","Figma [Design, UI/UX]","Jetbrains Rider [Programming]"],
+      "status": "Alpha Testing"
     },
     "features": [
       "Real-time tricycle location tracking",
