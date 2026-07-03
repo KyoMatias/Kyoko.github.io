@@ -1,0 +1,16 @@
+# 1. Ignore absolutely everything by default
+*
+
+# 2. Allow Git to track directories (critical for finding 'dist')
+!*/
+
+# 3. Un-ignore the entire dist folder and its contents
+!dist/**
+
+# 4. Un-ignore your crucial project configuration files
+!.gitignore
+!package.json
+!pnpm-workspace.yaml
+!vite.config.*
+!index.html
+!
